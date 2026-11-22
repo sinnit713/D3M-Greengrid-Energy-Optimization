@@ -92,7 +92,9 @@ install.packages(c(
   "ROI.plugin.highs",
   "ROI.plugin.glpk",
   "magrittr"
-))```
+))
+```
+A compatible HiGHS and GLPK solver installation is also required.
 
 ## Results and Solver Comparison
 
