@@ -16,6 +16,14 @@ The project develops an optimization model to determine:
 
 The model is evaluated using three datasets of different sizes to examine computational performance and scalability.
 
+## Project Highlights
+
+- Developed a Mixed-Integer Linear Programming (MILP) model for renewable energy procurement optimization.
+- Incorporated supplier selection, minimum procurement commitments, supplier concentration limits, and strategic alliance constraints.
+- Implemented and compared HiGHS and GLPK optimization solvers.
+- Evaluated model performance across small, medium, and large datasets.
+- Examined the impact of a pricing fairness constraint on optimization outcomes and computational performance.
+
 ## Objectives
 
 - Minimize total renewable energy procurement costs.
