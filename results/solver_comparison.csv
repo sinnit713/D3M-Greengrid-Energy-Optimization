@@ -1,0 +1,13 @@
+Scenario,Dataset,Solver,Objective_Value,Runtime_Seconds
+Part B,Small,HiGHS,63063.32,0.04
+Part B,Small,GLPK,63063.32,0.03
+Part B,Medium,HiGHS,8012167,117.48
+Part B,Medium,GLPK,8038668,3609.39
+Part B,Large,HiGHS,10927262,3636.38
+Part B,Large,GLPK,10996045,3640.23
+Part D,Small,HiGHS,63063.32,0.04
+Part D,Small,GLPK,63063.32,0.03
+Part D,Medium,HiGHS,8012167,250.39
+Part D,Medium,GLPK,8050136,3610.32
+Part D,Large,HiGHS,10927262,3637.92
+Part D,Large,GLPK,11018786,3651.56
