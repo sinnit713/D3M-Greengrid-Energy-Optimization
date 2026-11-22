@@ -69,6 +69,31 @@ The datasets are generated programmatically using R, with a fixed random seed to
 - **Optimization Solvers:** HiGHS and GLPK
 - **Analysis:** Solver performance comparison and LP relaxation analysis
 
+## Requirements
+
+The project was developed using R.
+
+The following R packages are required:
+
+- ompr
+- ompr.roi
+- ROI
+- ROI.plugin.highs
+- ROI.plugin.glpk
+- magrittr
+
+Install the packages using:
+
+```r
+install.packages(c(
+  "ompr",
+  "ompr.roi",
+  "ROI",
+  "ROI.plugin.highs",
+  "ROI.plugin.glpk",
+  "magrittr"
+))
+
 ## Results and Solver Comparison
 
 The following results are taken from the computational experiments documented in the project report.
