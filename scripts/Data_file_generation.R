@@ -1,5 +1,5 @@
 
-seed_ID = 741 # replace 123 with the last 3 digits of your student ID.
+seed_ID = 741 
 
 seed = seed_ID
 
@@ -161,7 +161,7 @@ generate_energy_data(
   n_periods = 3,
   n_alliances = 2,
   seed = seed_ID,
-  file_name = "small_data.csv"
+  file_name = "small.csv"
 )
 
 generate_energy_data(
@@ -169,7 +169,7 @@ generate_energy_data(
   n_periods = 300,
   n_alliances = 8,
   seed = seed_ID,
-  file_name = "medium_data.csv"
+  file_name = "medium.csv"
 )
 
 generate_energy_data(
@@ -177,5 +177,5 @@ generate_energy_data(
   n_periods = 400,
   n_alliances = 10,
   seed = seed_ID,
-  file_name = "large_data.csv"
+  file_name = "large.csv"
 )
