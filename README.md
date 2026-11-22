@@ -124,7 +124,7 @@ renewable-energy-procurement-optimization/
 │   └── Greengrid Optimisation Model.R
 │
 ├── results/
-│   └── .gitkeep
+│   └── solver_comparison.csv
 │
 └── README.md
 ```
