@@ -1,14 +1,11 @@
 
 
 #Name: Nitish Kumar Singh
-#Student Id: 40524741
-#Program: MSc. BA
+#Program: MSc. Business Analytics
 
 
 # Note on this code development:
 # This code is developed based on the assignment requirement and lecture material on optimization modelling using ompr
-# Generative AI tools (ChatGPT) was used for minor syntax clarification,
-# debugging, and understanding specific functions (e.g.,sink()syntax , data extraction and strsplit()syntax)
 
 # Loading necessary libraries
 library(magrittr)
@@ -189,9 +186,9 @@ GreenGrid_Optimization_Model <- function(file_path, dataset_name = "dataset") {
 }
 
 # RUN FOR DATASETS
-result_small  <- GreenGrid_Optimization_Model("40524741_small.csv", "SMALL")
-result_medium <- GreenGrid_Optimization_Model("40524741_medium.csv", "MEDIUM")
-result_large  <- GreenGrid_Optimization_Model("40524741_large.csv", "LARGE")
+result_small  <- GreenGrid_Optimization_Model("small.csv", "SMALL")
+result_medium <- GreenGrid_Optimization_Model("medium.csv", "MEDIUM")
+result_large  <- GreenGrid_Optimization_Model("large.csv", "LARGE")
 
 # STOP LOGGING
 sink()
