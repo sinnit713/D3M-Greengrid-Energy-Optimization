@@ -92,7 +92,7 @@ install.packages(c(
   "ROI.plugin.highs",
   "ROI.plugin.glpk",
   "magrittr"
-))
+))```
 
 ## Results and Solver Comparison
 
