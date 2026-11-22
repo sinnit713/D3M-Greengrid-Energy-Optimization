@@ -49,6 +49,14 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
+# Project-specific solver logs
+solver_logs.txt
+results/solver_logs.txt
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
 # compiled code 
 src/*.o
 src/*.so
